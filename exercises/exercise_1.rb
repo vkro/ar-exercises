@@ -7,18 +7,10 @@ puts "----------"
 # Your code goes below here ...
 
 class Store 
-  # def initialize
-  #   @name
-  #   @annual_revenue
-  #   @mens_apparel
-  #   @womens_apparel
-  # end
 end
-
 
 # annual_revenue 300000, men's and women's apparel
 burnaby = Store.create(name: "Burnaby", annual_revenue: 300000, mens_apparel: true, womens_apparel: true)
-
 
 # annual revenue 1260000, women's apparel only
 richmond = Store.create(name: "Richmond", annual_revenue: 1260000, mens_apparel: false, womens_apparel: true)
